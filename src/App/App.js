@@ -1,13 +1,10 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
+import { LandingPage } from '../Components/LandingPage/LandingPage';
 import './App.scss';
 
-function App() {
-  return (
-    <div className='App'>
-      <h2>INSIDE APP COMPONENT</h2>
-      <button className='btn btn-info'>I am a button</button>
-    </div>
-  );
-}
-
-export default App;
+export const NettlesNotions = () => {
+  <>
+    <Route path="/" render={LandingPage} />
+  </>;
+};

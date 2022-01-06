@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Styles/index.scss';
-import App from './App/App';
+import { NettlesNotions } from './App/App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NettlesNotions />
   </React.StrictMode>,
   document.getElementById('root')
 );

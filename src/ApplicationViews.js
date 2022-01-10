@@ -3,14 +3,12 @@ import { Route } from 'react-router-dom';
 import { LandingPage } from './Components/LandingPage/LandingPage';
 import { LandingPageProvider } from './Components/LandingPage/LandingPageProvider';
 
-export const ApplicationViews = () => {
-    return <>
+export const ApplicationViews = () => <>
         <main style={{
-            margin: "5rem 2rem",
+          margin: '5rem 2rem',
         }}>
             <LandingPageProvider>
-                <Route exact path="/" render={ props => <LandingPage {...props}/>} />
+                <Route exact path="/Landing" render={(props) => <LandingPage {...props}/>} />
             </LandingPageProvider>
         </main>
-    </>
-};
+    </>;

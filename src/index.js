@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './Styles/index.scss';
 import { NettlesNotions } from './App/App';
@@ -7,7 +8,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <NettlesNotions />
+    <Router>
+      <Routes>
+        <NettlesNotions />
+      </Routes>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

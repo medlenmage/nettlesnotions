@@ -13,4 +13,4 @@ export const ApplicationViews = () => {
             </LandingPageProvider>
         </main>
     </>
-}
+};

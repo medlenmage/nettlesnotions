@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export const LandingPage = () => {
-
-
     return (
         <main className="container--landing">
             <div className="landing">
@@ -21,4 +19,4 @@ export const LandingPage = () => {
             </div>
         </main>
     )
-}
+};

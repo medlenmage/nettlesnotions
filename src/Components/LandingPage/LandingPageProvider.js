@@ -1,11 +1,7 @@
-import React from 'react';
+// import React from 'react';
 
-export const LandingContext = React.createContext()
+// export const LandingContext = React.createContext();
 
-export const LandingPageProvider = props => {
-    return (
-        <LandingContext.Provider value={{}}>
-            {props.children}
-        </LandingContext.Provider>
-    )
-}
+// export const LandingPageProvider = (props) => <LandingContext.Provider value={{}}>
+//             {props.children}
+//         </LandingContext.Provider>;

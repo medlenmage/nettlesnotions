@@ -1,16 +1,18 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './Styles/index.scss';
-import { NettlesNotions } from './App/App';
+// import { ApplicationViews } from './ApplicationViews';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { LandingPage } from './Components/LandingPage/LandingPage';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <NettlesNotions />
+        <Route path="/" element={<LandingPage />}/>
+        {/* <ApplicationViews /> */}
       </Routes>
     </Router>
   </React.StrictMode>,

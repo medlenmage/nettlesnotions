@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export const LandingPage = () => <main className="container--landing">
-            <div className="landing">
+            <div className="landing" id="nettles-landing">
                 <h4 className="landing-header">Nettles and Notions</h4>
                 <p className="introduction">
                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae

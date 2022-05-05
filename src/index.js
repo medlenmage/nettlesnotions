@@ -2,17 +2,15 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './Styles/index.scss';
-// import { ApplicationViews } from './ApplicationViews';
+import { ApplicationViews } from './ApplicationViews';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { LandingPage } from './Components/LandingPage/LandingPage';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage />}/>
-        {/* <ApplicationViews /> */}
+        <Route path="*" element={<ApplicationViews />}/>
       </Routes>
     </Router>
   </React.StrictMode>,

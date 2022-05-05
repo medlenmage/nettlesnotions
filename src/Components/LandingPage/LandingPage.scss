@@ -1,4 +1,13 @@
-// #nettles-landing {
-//     background-image: url("https://www.instagram.com/p/CLhVRRdgFCh/?utm_source=ig_web_copy_link");
-//     background-repeat: no-repeat,
-// };
+#nettles-landing {
+    color: whitesmoke;
+    background-image: url("../../../pictures/nettles.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+};
+
+div.landing {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}

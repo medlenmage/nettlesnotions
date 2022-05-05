@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './LandingPage.scss';
 
 export const LandingPage = () => <main className="container--landing">
             <div className="landing" id="nettles-landing">

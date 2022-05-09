@@ -1,13 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Square+Peg&display=swap');
+
 #nettles-landing {
     color: whitesmoke;
     background-image: url("../../../pictures/nettles.png");
     background-size: cover;
     background-repeat: no-repeat;
-    
+    text-align: center;
+    opacity: .6;
 };
 
 div.landing {
+    position: absolute;
     height: 100%;
     width: 100%;
-    padding: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.landing-content {
+    padding: 250px;
+}
+
+.landing-header {
+    font-family: 'square peg', cursive;
+}
+
+#blog-entry {
+    color: limegreen;
+}
+
+#blog-entry:hover {
+    color: green;
 }

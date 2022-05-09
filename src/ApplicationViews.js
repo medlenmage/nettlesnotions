@@ -3,9 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { LandingPage } from './Components/LandingPage/LandingPage';
 
 export const ApplicationViews = () => <>
-        <main style={{
-          margin: '5rem 2rem',
-        }}>
+        <main>
                 <Routes>
                         <Route path="/" element={<LandingPage />}/>
                 </Routes>

@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Square+Peg&display=swap');
 
 #nettles-landing {
-    color: whitesmoke;
     background-image: url("../../../pictures/nettles.png");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    opacity: .6;
 };
 
 div.landing {
@@ -19,10 +17,13 @@ div.landing {
 
 .landing-content {
     padding: 250px;
+    color: white;
+    font-weight: 500;
 }
 
 .landing-header {
     font-family: 'square peg', cursive;
+    font-weight: 700;
 }
 
 #blog-entry {
